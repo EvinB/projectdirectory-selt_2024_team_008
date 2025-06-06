@@ -7,7 +7,8 @@
 - HTML/CSS
 - PostgreSQL
 - Cucumber
-- RSpec 
+- RSpec
+- OpenAI DALLE API 
 
 Shards of the Grid is a full-stack SaaS multiplayer web game where users compete to claim and control tiles on a 10×10 dynamic grid. Designed as a team capstone project, the platform combines real-time multiplayer gameplay with an in-game economy, live chat, task-based mechanics, and account customization.
 
@@ -35,6 +36,11 @@ Players join or create a session, spawning into a shared grid map. From there, t
 - Buy cosmetics and equipment through a virtual store.
 - Open Mystery Boxes with randomized rewards.
 - Inventory and item ownership is tracked per user, and items can be equipped for aesthetics.
+
+**Character Customization & Avatars**
+- Users can generate custom avatars using the OpenAI DALL·E API, adding personalization to their in-game presence.
+- Equipped items (earned or purchased) are visually reflected on the character.
+- Avatars are displayed on grid tiles and in task interactions, enhancing immersion.
 
 **Multiplayer & Sessions**
 - Each game session creates an isolated "server" and "chatroom" via a Server model.
