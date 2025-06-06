@@ -62,3 +62,10 @@ Players join or create a session, spawning into a shared grid map. From there, t
 - Version control with Git and GitHub, using PRs, issue tracking, and review pipelines.
 - Daily team standups.
 
+
+
+![Screenshot](https://github.com/EvinB/projectdirectory-selt_2024_team_008/blob/main/sg1.png)
+![Screenshot](https://github.com/EvinB/projectdirectory-selt_2024_team_008/blob/main/sg2.png)
+![Screenshot](https://github.com/EvinB/projectdirectory-selt_2024_team_008/blob/main/sg3.png)
+![Screenshot](https://github.com/EvinB/projectdirectory-selt_2024_team_008/blob/main/sg4.png)
+
