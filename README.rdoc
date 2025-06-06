@@ -1,3 +1,6 @@
-Instructions:
 
-For Devise authentication, we have set up a Gmail account for password recovery. Authentication for this account is kept in a '.env' file that needs to be in the root directory for this project. This file is kept in the Files for our Teams Channel and can be downloaded from there. Devise also has a secret key which can also be found in the same '.env' file. 
+## Shards of the Grid 
+**Ruby on Rails, JavaScript, HTML/CSS, PostgreSQL, Cucumber, RSpec**
+SaaS multiplayer strategy game where players compete to claim territory on a dynamic 10×10 grid. Users earn and spend in-game currency ("Shards") to buy mystery boxes, items, and territory upgrades.
+
+
