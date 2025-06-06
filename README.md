@@ -22,26 +22,26 @@ Players join or create a session, spawning into a shared grid map. From there, t
 - Equip avatar items and track performance via a live leaderboard.
 
 ## Core Features
-Territory & Tile Mechanics
+**Territory & Tile Mechanics**
 - Each session starts with an empty 10×10 grid initialized per game.
 - Player positions and tile ownership are tracked in real time via ActiveRecord and ActionCable.
 - Each tile has randomized task types and background images.
 
-Tasks & Game Logic
+**Tasks & Game Logic**
 - Tasks are handled via controller-level logic with custom validation per type (math, npc, or tic_tac_toe).
 
-In-Game Economy & Shop
+**In-Game Economy & Shop**
 - Players earn and spend Shards (virtual currency).
 - Buy cosmetics and equipment through a virtual store.
 - Open Mystery Boxes with randomized rewards.
 - Inventory and item ownership is tracked per user, and items can be equipped for aesthetics.
 
-Multiplayer & Sessions
+**Multiplayer & Sessions**
 - Each game session creates an isolated "server" and "chatroom" via a Server model.
 - Users must join the server before entering the game, tracked via Membership records.
 - Live chat is enabled via ActionCable (websockets).
 
-Authentication & Access Control
+**Authentication & Access Control**
 - Handled via Devise with Google OAuth support.
 - Authenticated users can join games, own items, and interact with task/chat/game logic.
 
